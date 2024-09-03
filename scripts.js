@@ -17,7 +17,7 @@ document.getElementById("healthForm").addEventListener("submit", async (e) => {
     });
 
     if (!response.ok) {
-      throw new Error("Network response was not ok");
+      throw new Error("Network response was not ok and i like to reuse again");
     }
 
     const data = await response.json();
